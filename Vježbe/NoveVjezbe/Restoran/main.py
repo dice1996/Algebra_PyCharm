@@ -12,7 +12,7 @@ omoguciti unos u meni (svaki od segmenata)
 omoguciti narucivanje - vise stvari
 izrada racuna prema narudzbi
 placanje - keš/kartica
-dostupni stolovi - rezervacija
+dostupni stolovi - rezervacija - u izdradi
 
 restoran mora cuvati sve racune
 
@@ -51,12 +51,12 @@ if __name__ == "__main__":
         elif selection == 1:
             while True:
                 utl.clear_screen()
-                new_selection = utl.menu_selection(submenu, "submenu")
-                if new_selection == 0:
+                sub_selection = utl.menu_selection(submenu, "submenu")
+                if sub_selection == 0:
                     break
-                elif new_selection == 1:
+                elif sub_selection == 1:
                     service.add_dish()
-                elif new_selection == 2:
+                elif sub_selection == 2:
                     service.add_drink()
             continue
         elif selection == 2:
@@ -66,4 +66,5 @@ if __name__ == "__main__":
             utl.clear_screen()
             service.create_payment()
         elif selection == 4:
+            #U procesu - nisam još ovo odradio
             pass

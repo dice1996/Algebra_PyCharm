@@ -10,6 +10,9 @@ class Restaurant:
     def add_dish(self, dish):
         self.dishes.append(dish)
 
-    def add_drink(self, drink, dt: DrinkType):
+    def add_drink(self, drink):
         self.drinks.append(drink)
+
+    def add_order(self, order):
+        self.drinks.append(order)
 

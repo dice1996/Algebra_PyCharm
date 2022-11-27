@@ -14,7 +14,7 @@ class RestaurantService:
         self.restaurant = Restaurant()
 
     def add_dish(self):
-        dish = Dish(input("Insert name of the dish: "), utl.input_number("Insert price: "))
+        dish = Dish(input("Insert name of the dish: "), utl.input_number("Insert price (in €): "))
         self.restaurant.add_dish(dish)
 
     def add_drink(self):
@@ -29,8 +29,8 @@ class RestaurantService:
                 break
             else:
                 print("Try again, not correct input!")
-        drink = Drinks(input("Insert name of the drink: "), utl.input_number("Insert price: "), selection)
-        self.restaurant.add_drink(drink, selection)
+        drink = Drinks(input("Insert name of the drink: "), utl.input_number("Insert price (in €): "), selection)
+        self.restaurant.add_drink(drink)
 
     def print_drink_items(self):
         print("DRINKS")
@@ -104,7 +104,7 @@ class RestaurantService:
         else:
             order = Orders(food, drinks)
             print(f"Order ID is {order.id} and total amount to pay is {order.receipt_total}€.")
-            self.restaurant.orders.append(order)
+            self.restaurant.add_order(order)
             time.sleep(2)
             utl.clear_screen()
 
