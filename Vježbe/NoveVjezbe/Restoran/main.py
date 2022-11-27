@@ -45,7 +45,7 @@ if __name__ == "__main__":
     service = RestaurantService()
 
     while True:
-        #utl.clear_screen()
+        utl.clear_screen()
         selection = utl.menu_selection(main_menu, "main menu")
         if selection == 0:
             break
@@ -69,4 +69,5 @@ if __name__ == "__main__":
         elif selection == 4:
             service.print_receipt()
         elif selection == 5:
+            #Nije napravljeno još
             pass
