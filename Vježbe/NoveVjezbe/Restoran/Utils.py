@@ -1,5 +1,6 @@
 import os
 import time
+import secrets
 
 
 class Utils:
@@ -37,10 +38,14 @@ class Utils:
         while True:
             try:
                 if text is None and index is None:
-                    return int(input("Input number: "))
+                    return int(input("Input selection: "))
                 elif text is None and index is not None:
-                    return int(input(f"Input {index}. number: "))
+                    return int(input(f"Input {index}. selection: "))
                 else:
                     return float(input(text))
-            except TypeError:
+            except:
                 print("Input not valid!")
+
+    @staticmethod
+    def create_jir():
+        return secrets.token_hex(12)
