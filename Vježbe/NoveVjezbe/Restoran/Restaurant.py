@@ -14,5 +14,5 @@ class Restaurant:
         self.drinks.append(drink)
 
     def add_order(self, order):
-        self.drinks.append(order)
+        self.orders.append(order)
 

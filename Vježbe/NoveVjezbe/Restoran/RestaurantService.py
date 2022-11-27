@@ -57,6 +57,28 @@ class RestaurantService:
                 t.add_row([item.id, item.receipt_total, "OPEN"])
         print(f"{t}\n")
 
+    def print_receipt(self):
+        print("RECEIPT ARCHIVE")
+        if self.restaurant.orders != []:
+            selection = utl.input_number("Please input order ID to print receipt: ")
+            t = PrettyTable(["ORDER ID", "ORDER PRICE (in €)", "STATUS", "PAID BY", "JIR"], padding_width=3, hrules=ALL)
+            flag = False
+            for item in self.restaurant.orders:
+                item: Orders
+                if item.jir is not None:
+                    if int(item.id) == selection:
+                        t.add_row([item.id, item.receipt_total, "PAID", item.payment.value, item.jir])
+                        flag = True
+            if flag != False:
+                print(f"{t}\n")
+            else:
+                print("Requested order does not exists. Returning to main menu...")
+            time.sleep(2)
+        else:
+            print("No orders!")
+            time.sleep(2)
+            utl.clear_screen()
+
     def crate_order(self):
         utl.clear_screen()
         print("Create your order in few easy steps!\n")

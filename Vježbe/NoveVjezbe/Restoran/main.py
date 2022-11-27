@@ -30,7 +30,8 @@ main_menu = {
     1: "Input menu item",
     2: "Order",
     3: "Pay order",
-    4: "Reservation / Available seats (in progress)",
+    4: "Print order receipt",
+    5: "Reservation / Available seats (in progress)",
     0: "Exit"
 }
 
@@ -44,7 +45,7 @@ if __name__ == "__main__":
     service = RestaurantService()
 
     while True:
-        utl.clear_screen()
+        #utl.clear_screen()
         selection = utl.menu_selection(main_menu, "main menu")
         if selection == 0:
             break
@@ -66,5 +67,6 @@ if __name__ == "__main__":
             utl.clear_screen()
             service.create_payment()
         elif selection == 4:
-            #U procesu - nisam još ovo odradio
+            service.print_receipt()
+        elif selection == 5:
             pass
