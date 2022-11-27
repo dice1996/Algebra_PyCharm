@@ -115,7 +115,6 @@ class RestaurantService:
             print("Payment canceled. Returning to main menu...")
             time.sleep(2)
         else:
-            flag = False
             for item in self.restaurant.orders:
                 item: Orders
                 if int(item.id) == selection:
