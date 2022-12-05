@@ -32,6 +32,7 @@ class OrdersDto:
         item.price = entry[3]
         item.seats = entry[4]
         item.payment = entry[5]
+        item.jir = entry[6]
         return item
 
 

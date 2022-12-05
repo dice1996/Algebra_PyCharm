@@ -31,7 +31,7 @@ DB_NAME = "Restaurant.db"
 main_menu = {
 
     1: "Input menu item",
-    2: "Order",
+    2: "Order (takeout)",
     3: "Pay order",
     4: "Print order receipt",
     5: "Reservation / Available seats (in progress)",

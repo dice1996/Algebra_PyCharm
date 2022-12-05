@@ -1,5 +1,4 @@
 import time
-
 from prettytable import PrettyTable, ALL
 from datasource.dto.FoodDto import FoodDto
 from datasource.dto.DrinksDto import DrinkType, DrinksDto
@@ -144,3 +143,26 @@ class RestaurantService:
                 elif int(item.id) == selection:
                     print("Order does not exists. returning to main manu...")
                     time.sleep(2)
+
+    def print_receipt(self):
+        print("RECEIPT ARCHIVE")
+        orders = OrdersService(self.sqlConnection).fetch_open_orders(True)
+        if orders != []:
+            selection = utl.input_number("Please input order ID to print receipt: ")
+            t = PrettyTable(["ORDER ID", "ORDER PRICE (in €)", "STATUS", "PAID BY", "JIR"], padding_width=3, hrules=ALL)
+            flag = False
+            for item in orders:
+                item: OrdersDto
+                if item.jir is not None:
+                    if int(item.id) == selection:
+                        t.add_row([item.id, item.price, "PAID", item.payment, item.jir])
+                        flag = True
+            if flag:
+                print(f"{t}\n")
+            else:
+                print("Requested order does not exists. Returning to main menu...")
+            time.sleep(4)
+        else:
+            print("No orders!")
+            time.sleep(2)
+            utl.clear_screen()

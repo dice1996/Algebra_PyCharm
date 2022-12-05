@@ -31,12 +31,20 @@ class OrdersService:
         row_id = DBUtils.execute_query(self.sqlConnection, query)
         return price, row_id
 
-    def fetch_open_orders(self):
-        query = f'''
+    def fetch_open_orders(self, paid = False):
+        query1 = f'''
                     SELECT * FROM {OrdersDto.TABLE_NAME}
                     WHERE payment = "None";
                 '''
-        orders = DBUtils.fetch_data(self.sqlConnection, query)
+
+        query2 = f'''
+                            SELECT * FROM {OrdersDto.TABLE_NAME}
+                            WHERE payment != "None";
+                        '''
+        if paid:
+            orders = DBUtils.fetch_data(self.sqlConnection, query2)
+        else:
+            orders = DBUtils.fetch_data(self.sqlConnection, query1)
         orders_list = []
         for item in orders:
             order_item = OrdersDto.map_data_from_database(item)
