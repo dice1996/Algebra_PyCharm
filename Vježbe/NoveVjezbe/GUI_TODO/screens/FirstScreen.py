@@ -38,7 +38,6 @@ class FirstScreen(Frame):
         task = TaskDto().add_task(self.todo_variable.get())
         TaskService(self.sqlConnection).add_task_to_table(task)
         self.todo_variable.set("")
-        TaskService(self.sqlConnection).retrieve_tasks()
         self.show_tasks()
 
     def show_tasks(self):
