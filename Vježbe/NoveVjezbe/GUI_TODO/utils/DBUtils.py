@@ -4,13 +4,13 @@ import sqlite3
 class DBUtils:
 
     @staticmethod
-    def izvrsiIZapisi(sqlConnection, upit):
+    def db_execute(sqlConnection, upit):
         try:
             cursor = sqlConnection.cursor()
             cursor.execute(upit)
             sqlConnection.commit()
             cursor.close()
-            print("Akcija uspjesno izvrsena")
+            #print("Akcija uspjesno izvrsena")
             return True
         except sqlite3.Error as sqlError:
             print(sqlError)
@@ -48,7 +48,7 @@ class DBUtils:
     #         print(e)
 
     @staticmethod
-    def dohvatiPodatke(sqlConnection, upit, one=False):
+    def db_fetch(sqlConnection, upit, one=False):
         try:
             cursor: sqlite3.Cursor = sqlConnection.cursor()
             cursor.execute(upit)
@@ -58,7 +58,7 @@ class DBUtils:
             else:
                 rezultat = cursor.fetchall()
             cursor.close()
-            print("Akcija dohvati uspjesno izvrsena")
+            #print("Akcija dohvati uspjesno izvrsena")
             return rezultat
         except sqlite3.Error as sqlError:
             print(sqlError)
