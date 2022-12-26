@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e856036f-f46c-4206-9c0f-46a55b006557" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Ispit 2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Ispit 2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/SmartKey.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7c4ed0b5-7afb-4358-ac12-68da91123122.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasource/dto/SmarKeyDto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/MainWindow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/SmartKeyService.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smartkey.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/DBUtils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/CountryCodes/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/CountryCodes/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/CountryCodes/.idea/CountryCodes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/CountryCodes/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/CountryCodes/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/CountryCodes/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/CountryCodes/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/CountryCodes/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/CountryCodes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/CountryCodes/ada" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/CountryCodes/admin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/CountryCodes/datasource/dto/Country.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/CountryCodes/img/europe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/CountryCodes/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/CountryCodes/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/CountryCodes/screens/MainWindow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/CountryCodes/screens/SecondWindow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/CountryCodes/screens/ThirdWindow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/CountryCodes/services/CountryService.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/CountryCodes/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/CountryCodes/utils/DBUtils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/IoT - Read and Publish/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/IoT - Read and Publish/.idea/IoT - Read and Publish.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/IoT - Read and Publish/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/IoT - Read and Publish/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/IoT - Read and Publish/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/IoT - Read and Publish/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/IoT - Read and Publish/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/IoT - Read and Publish/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/IoT - Read and Publish/mqtt/MqttClient.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/IoT - Read and Publish/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/IoT - Read and Publish/screens/MainWindow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/IoT - Read and Publish/service/ReaderService.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/IoT/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/IoT/.idea/IoT.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/IoT/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/IoT/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/IoT/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/IoT/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/IoT/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/IoT/mqtt/MqttClient.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/IoT/test_thread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/Videoteka - GUI/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/Videoteka - GUI/.idea/Videoteka - GUI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/Videoteka - GUI/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/Videoteka - GUI/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/Videoteka - GUI/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/Videoteka - GUI/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/Videoteka - GUI/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/Videoteka - GUI/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/Videoteka - GUI/datasource/dto/Movie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/Videoteka - GUI/datasource/dto/User.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/Videoteka - GUI/datasource/dto/Videoteka.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/Videoteka - GUI/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/Videoteka - GUI/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/Videoteka - GUI/screens/MainWindow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/Videoteka - GUI/service/MovieService.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/Videoteka - GUI/service/UserServices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/Videoteka - GUI/service/VideotekaService.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/Videoteka - GUI/utils/DBUtils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/Videoteka - GUI/videoteka.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/GUI_TODO/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/GUI_TODO/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/GUI_TODO/screens/FirstScreen.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vježbe/NoveVjezbe/GUI_TODO/screens/FirstScreen.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/screens/MainWindow.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/services/SmartKeyService.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2J0JKtPMilXj3cHthroHhLEXttM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dinoc/Desktop/Algebra/Parcijalni ispiti/SmartKey&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dinoc\Desktop\Algebra\Parcijalni ispiti\Ispit 2\screens" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="SmartKey" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="SmartKey" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="SmartKey" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Ispit 2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\dinoc\Desktop\Algebra\Vježbe\GUI_TODO\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="SmartKey" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="SmartKey" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="SmartKey" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="SmartKey" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="SmartKey" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="SmartKey" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e856036f-f46c-4206-9c0f-46a55b006557" name="Changes" comment="" />
+      <created>1671209007077</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671209007077</updated>
+      <workItem from="1671209009026" duration="133000" />
+      <workItem from="1671209248725" duration="307000" />
+      <workItem from="1671209565609" duration="1123000" />
+      <workItem from="1671210801043" duration="21000" />
+      <workItem from="1671210831771" duration="9736000" />
+      <workItem from="1671300235811" duration="8037000" />
+      <workItem from="1671567854096" duration="2263000" />
+      <workItem from="1671734292868" duration="188000" />
+      <workItem from="1671734521208" duration="468000" />
+      <workItem from="1671735022819" duration="3354000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Ispit_2$main.coverage" NAME="main Coverage Results" MODIFIED="1671210431052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SmartKey$main.coverage" NAME="main Coverage Results" MODIFIED="1671624844898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

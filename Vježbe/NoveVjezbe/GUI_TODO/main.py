@@ -9,7 +9,7 @@ class App(tk.Tk):
         self.title("GUI - TODO")
         self.geometry("1000x600")
         self.kreiraj_prvi_prozor()
-        sv_ttk.use_dark_theme()
+        sv_ttk.use_light_theme()
 
     def kreiraj_prvi_prozor(self):
         FirstScreen(self)
